@@ -92,34 +92,30 @@ ul {
 
 /* Header */
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: rgba(184, 184, 184, 0.9);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--color-border);
-    transition: all 0.3s ease;
+         position: fixed;
+            top: 15px; /* 상단에서 약간 띄움 */
+            left: 50%;
+            transform: translateX(-50%); /* 정확한 중앙 정렬 */
+            width: var(--header-width);
+            max-width: var(--header-max-width);
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.85); /* 투명도 조절 */
+            backdrop-filter: blur(15px);
+            border: 1px solid var(--color-border);
+            border-radius: 40px; /* 캡슐 모양 */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    height: 60px;
+    padding: 0 30px;
 }
 
-.logo {
-    font-family: var(--font-heading);
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--color-heading);
-}
 
-.logo .dot {
-    color: var(--color-primary);
-}
 
 .nav ul {
     display: flex;
