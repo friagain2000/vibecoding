@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bronx - Home Light Clone</title>
+    
+    <!-- Original Fonts via Google Fonts (as requested in PRD) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+    <!-- Korean Fonts (Gmarket Sans & Pretendard) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+    <link href="https://webfontworld.github.io/gmarket/GmarketSans.css" rel="stylesheet">
+
+    <!-- Line Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/line-awesome@1.3.0/dist/line-awesome/css/line-awesome.min.css">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <div class="logo">Local/</div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">Photography</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-outline">Schedule a call <i class="las la-arrow-right"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <h1 class="hero-title gsap-reveal">MECHEALE<br>BEAUREGARD</h1>
+                <div class="hero-info gsap-reveal">
+                    <p class="role">Digital Designer + Webflow Developer</p>
+                    <p class="location"><i class="las la-map-marker"></i> Based in New York, USA</p>
+                </div>
+            </div>
+            <div class="hero-image gsap-fade">
+                <!-- Placeholder for Hero Image -->
+                <div class="image-placeholder"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section class="work section-padding" id="work">
+        <div class="container">
+            <div class="section-header gsap-fade-up">
+                <h2 class="section-title">Featured Work</h2>
+                <a href="#" class="btn btn-outline">View All</a>
+            </div>
+            
+            <div class="work-grid">
+                <!-- Project 1 -->
+                <div class="work-item gsap-fade-up">
+                    <div class="work-img-wrapper">
+                        <div class="image-placeholder work-img"></div>
+                    </div>
+                    <div class="work-info">
+                        <div class="work-meta">
+                            <span>Web Design</span>
+                            <span>2024</span>
+                        </div>
+                        <h3 class="work-title">E-Commerce Platform Redesign</h3>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="work-item gsap-fade-up" style="transition-delay: 0.1s">
+                    <div class="work-img-wrapper">
+                        <div class="image-placeholder work-img"></div>
+                    </div>
+                    <div class="work-info">
+                        <div class="work-meta">
+                            <span>App Development</span>
+                            <span>2023</span>
+                        </div>
+                        <h3 class="work-title">Financial Dashboard UI</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image gsap-fade-up">
+                    <div class="image-placeholder portrait-img"></div>
+                </div>
+                <div class="about-content gsap-fade-up">
+                    <h2 class="section-title mb-4">I'm a digital designer based in New York.</h2>
+                    <p class="about-desc mb-4">With over 5 years of experience in the digital design industry, I specialize in creating intuitive, engaging, and highly functional user interfaces. My approach combines aesthetic sensibility with a deep understanding of user behavior.</p>
+                    <div class="about-stats mb-4">
+                        <div class="stat-item">
+                            <span class="stat-num">5+</span>
+                            <span class="stat-text">Years<br>Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">120+</span>
+                            <span class="stat-text">Projects<br>Completed</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-outline">Download Resume <i class="las la-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="services">
+        <div class="container">
+            <h2 class="section-title mb-4 gsap-fade-up">My Expertise</h2>
+            <div class="services-list">
+                <!-- Service 1 -->
+                <div class="service-item gsap-fade-up">
+                    <div class="service-num">01</div>
+                    <div class="service-content">
+                        <h3 class="service-title">UI/UX Design</h3>
+                        <p class="service-desc">Crafting intuitive and engaging user experiences through research, wireframing, and high-fidelity prototyping.</p>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-item gsap-fade-up">
+                    <div class="service-num">02</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Webflow Development</h3>
+                        <p class="service-desc">Translating designs into responsive, pixel-perfect, and highly optimized Webflow websites.</p>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-item gsap-fade-up">
+                    <div class="service-num">03</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Front-End Development</h3>
+                        <p class="service-desc">Building robust and scalable web applications using HTML, CSS, JavaScript, and modern frameworks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section-padding" id="experience">
+        <div class="container">
+            <h2 class="section-title mb-4 gsap-fade-up">Experience</h2>
+            <div class="experience-list">
+                <div class="exp-item gsap-fade-up">
+                    <div class="exp-date">2021 - Present</div>
+                    <div class="exp-info">
+                        <h3 class="exp-role">Senior Product Designer</h3>
+                        <p class="exp-company">Creative Agency NYC</p>
+                    </div>
+                </div>
+                <div class="exp-item gsap-fade-up">
+                    <div class="exp-date">2018 - 2021</div>
+                    <div class="exp-info">
+                        <h3 class="exp-role">UX/UI Designer</h3>
+                        <p class="exp-company">Tech Startup Inc.</p>
+                    </div>
+                </div>
+                <div class="exp-item gsap-fade-up">
+                    <div class="exp-date">2016 - 2018</div>
+                    <div class="exp-info">
+                        <h3 class="exp-role">Junior Web Designer</h3>
+                        <p class="exp-company">Digital Studio Studio</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="tech-stack section-padding" id="tech-stack">
+        <div class="container">
+            <h2 class="section-title mb-4 gsap-fade-up">Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item gsap-fade-up">
+                    <div class="tech-info">
+                        <span class="tech-name">Figma</span>
+                        <span class="tech-percent">95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 95%;"></div></div>
+                </div>
+                <div class="tech-item gsap-fade-up" style="transition-delay: 0.1s">
+                    <div class="tech-info">
+                        <span class="tech-name">Webflow</span>
+                        <span class="tech-percent">90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="tech-item gsap-fade-up" style="transition-delay: 0.2s">
+                    <div class="tech-info">
+                        <span class="tech-name">HTML/CSS</span>
+                        <span class="tech-percent">95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 95%;"></div></div>
+                </div>
+                <div class="tech-item gsap-fade-up" style="transition-delay: 0.3s">
+                    <div class="tech-info">
+                        <span class="tech-name">JavaScript</span>
+                        <span class="tech-percent">80%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section class="awards section-padding" id="awards">
+        <div class="container">
+            <h2 class="section-title mb-4 gsap-fade-up">Awards</h2>
+            <div class="awards-list">
+                <div class="award-item gsap-fade-up">
+                    <h3 class="award-title">Awwwards Site of the Day</h3>
+                    <div class="award-meta">
+                        <span>Creative Portfolio</span>
+                        <span>2023</span>
+                    </div>
+                </div>
+                <div class="award-item gsap-fade-up">
+                    <h3 class="award-title">CSS Design Awards</h3>
+                    <div class="award-meta">
+                        <span>Best UI/UX</span>
+                        <span>2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section-padding" id="faq">
+        <div class="container">
+            <h2 class="section-title mb-4 gsap-fade-up">FAQ</h2>
+            <div class="faq-list">
+                <div class="faq-item gsap-fade-up">
+                    <button class="faq-question">What is your design process? <i class="las la-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>My process typically involves research, wireframing, high-fidelity UI design, and prototyping. I collaborate closely with clients throughout each stage to ensure the final product meets their goals.</p>
+                    </div>
+                </div>
+                <div class="faq-item gsap-fade-up">
+                    <button class="faq-question">Do you develop the websites you design? <i class="las la-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>Yes, I specialize in both UI/UX design and frontend development, specifically using Webflow or custom HTML/CSS/JS for bespoke experiences.</p>
+                    </div>
+                </div>
+                <div class="faq-item gsap-fade-up">
+                    <button class="faq-question">How long does a typical project take? <i class="las la-plus"></i></button>
+                    <div class="faq-answer">
+                        <p>Depending on the scope and complexity, a standard website project can take anywhere from 4 to 8 weeks from initial discovery to final launch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / CTA -->
+    <footer class="footer section-padding" id="contact">
+        <div class="container">
+            <div class="footer-content gsap-fade-up">
+                <h2 class="footer-title">Let's Work<br>Together</h2>
+                <div class="footer-links">
+                    <a href="mailto:hello@example.com" class="footer-email">hello@example.com</a>
+                    <div class="social-links">
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Dribbble</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mecheale Beauregard. All rights reserved.</p>
+                <a href="#home" class="back-to-top">Back to top <i class="las la-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

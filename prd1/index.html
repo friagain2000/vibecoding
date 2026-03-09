@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleric - Personal Portfolio Clone</title>
+    
+    <!-- Font Replacements -->
+    <!-- Kanit -> Gmarket Sans -->
+    <link href="https://fonts.cdnfonts.com/css/gmarket-sans" rel="stylesheet">
+    <!-- Inter -> Pretendard -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard-std@1.3.9/dist/web/static/pretendard-std.min.css">
+    <!-- Space Grotesk -> S-Core Dream -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@noonnu/s-core-dream-3-light@0.1.0/index.min.css">
+    
+    <!-- Icons (FontAwesome alternative or basic icons for cloning) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/line-awesome@1.3.0/dist/line-awesome/css/line-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container header-inner">
+            <div class="logo">Aleric<span class="dot">.</span></div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Let's Talk <i class="las la-arrow-right"></i></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-inner">
+            <div class="hero-content">
+                <span class="subtitle gsap-fade-up">Hello, I'm</span>
+                <h1 class="hero-title gsap-fade-up">Gabriel Mathiwes</h1>
+                <p class="hero-desc gsap-fade-up">A passionate UI/UX Designer and Web Developer based in New York. I create digital experiences that are both beautiful and functional.</p>
+                
+                <div class="hero-actions gsap-fade-up">
+                    <a href="#" class="btn btn-primary">Download Resume</a>
+                    <div class="social-links">
+                        <a href="#"><i class="lab la-dribbble"></i></a>
+                        <a href="#"><i class="lab la-behance"></i></a>
+                        <a href="#"><i class="lab la-twitter"></i></a>
+                        <a href="#"><i class="lab la-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper gsap-zoom-in">
+                <div class="image-placeholder hero-image"></div>
+                <div class="floating-badge gsap-float">
+                    <span class="badge-number">10+</span>
+                    <span class="badge-text">Years of<br>Experience</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container about-inner">
+            <div class="about-content">
+                <span class="subtitle gsap-scroll-fade">About Me</span>
+                <h2 class="section-title gsap-scroll-fade">I'm a passionate designer & developer who loves creating digital products.</h2>
+                <p class="about-desc gsap-scroll-fade">With over 10 years of experience in the design industry, I have helped numerous brands create engaging and intuitive digital experiences. My approach combines aesthetic sensibility with a deep understanding of user behavior and business goals.</p>
+                <a href="#contact" class="btn btn-primary gsap-scroll-fade" style="margin-top: 24px;">Hire Me <i class="las la-arrow-right"></i></a>
+            </div>
+            <div class="about-skills">
+                <div class="skill-item gsap-scroll-fade">
+                    <div class="skill-info">
+                        <span class="skill-name">Figma / Adobe XD</span>
+                        <span class="skill-percent">95%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 95%;"></div></div>
+                </div>
+                <div class="skill-item gsap-scroll-fade" style="transition-delay: 0.1s">
+                    <div class="skill-info">
+                        <span class="skill-name">UI/UX Design</span>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill-item gsap-scroll-fade" style="transition-delay: 0.2s">
+                    <div class="skill-info">
+                        <span class="skill-name">Webflow / HTML / CSS</span>
+                        <span class="skill-percent">85%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+                </div>
+                <div class="skill-item gsap-scroll-fade" style="transition-delay: 0.3s">
+                    <div class="skill-info">
+                        <span class="skill-name">JavaScript / React</span>
+                        <span class="skill-percent">75%</span>
+                    </div>
+                    <div class="progress-bar"><div class="progress-fill" style="width: 75%;"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="services">
+        <div class="container">
+            <div class="section-header text-center gsap-scroll-fade">
+                <span class="subtitle">What I Do</span>
+                <h2 class="section-title">My Services</h2>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card gsap-scroll-fade">
+                    <div class="service-icon"><i class="las la-pencil-ruler"></i></div>
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p class="service-desc">Creating intuitive and visually stunning user interfaces tailored to your brand and user needs.</p>
+                    <a href="#" class="service-link"><i class="las la-arrow-right"></i></a>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card gsap-scroll-fade" style="transition-delay: 0.1s">
+                    <div class="service-icon"><i class="las la-code"></i></div>
+                    <h3 class="service-title">Web Development</h3>
+                    <p class="service-desc">Building responsive, scalable, and high-performance websites using modern web technologies.</p>
+                    <a href="#" class="service-link"><i class="las la-arrow-right"></i></a>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card gsap-scroll-fade" style="transition-delay: 0.2s">
+                    <div class="service-icon"><i class="las la-mobile"></i></div>
+                    <h3 class="service-title">App Design</h3>
+                    <p class="service-desc">Designing engaging mobile applications for iOS and Android platforms with a focus on usability.</p>
+                    <a href="#" class="service-link"><i class="las la-arrow-right"></i></a>
+                </div>
+                <!-- Service 4 -->
+                <div class="service-card gsap-scroll-fade" style="transition-delay: 0.3s">
+                    <div class="service-icon"><i class="las la-cube"></i></div>
+                    <h3 class="service-title">3D & Motion</h3>
+                    <p class="service-desc">Adding life to your products with engaging motion graphics and 3D visual elements.</p>
+                    <a href="#" class="service-link"><i class="las la-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section-padding" id="portfolio">
+        <div class="container">
+            <div class="section-header text-center gsap-scroll-fade">
+                <span class="subtitle">My Works</span>
+                <h2 class="section-title">Featured Portfolio</h2>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- Project 1 -->
+                <div class="portfolio-item gsap-scroll-fade">
+                    <div class="portfolio-img-wrapper">
+                        <div class="image-placeholder portfolio-img"></div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link"><i class="las la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">Mobile App Redesign</h3>
+                        <span class="portfolio-category">UI/UX Design</span>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="portfolio-item gsap-scroll-fade" style="transition-delay: 0.1s">
+                    <div class="portfolio-img-wrapper">
+                        <div class="image-placeholder portfolio-img"></div>
+                        <div class="portfolio-overlay">
+                            <a href="#" class="portfolio-link"><i class="las la-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3 class="portfolio-title">E-Commerce Website</h3>
+                        <span class="portfolio-category">Web Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer class="footer section-padding" id="contact">
+        <div class="container">
+            <div class="footer-top gsap-scroll-fade">
+                <h2 class="footer-heading">Let's work together</h2>
+                <a href="mailto:hello@example.com" class="footer-email">hello@example.com</a>
+                <div class="social-links lg-socials">
+                    <a href="#"><i class="lab la-dribbble"></i></a>
+                    <a href="#"><i class="lab la-behance"></i></a>
+                    <a href="#"><i class="lab la-twitter"></i></a>
+                    <a href="#"><i class="lab la-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="logo">Aleric<span class="dot">.</span></div>
+                <p>&copy; 2024 Gabriel Mathiwes. All rights reserved.</p>
+                <a href="#home" class="back-to-top">Back to top <i class="las la-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
